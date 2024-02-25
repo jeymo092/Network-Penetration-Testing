@@ -18,8 +18,6 @@ The assessment will cover the security of the following network components relat
 - **Intrusion Detection/Prevention System (IDPS):** Review the effectiveness of the IDPS in detecting and preventing network attacks.
 
 ## Testing Methodology
-## Testing Methodology
-
 ### Protocols
 The assessment will focus on the security of the following communication protocols:
 
