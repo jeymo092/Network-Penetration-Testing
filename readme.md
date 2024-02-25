@@ -77,18 +77,3 @@ The following tools will be used during the assessment:
    - Employ Nmap for scanning and vulnerability detection on UDP-based services.
    - Use Wireshark and tcpdump to capture and analyze UDP communication for security issues.
 
-## Exclusions
-The following items are explicitly excluded from the scope of this network security test:
-- [List any items, systems, or components explicitly not included in the scope.]
-
-## Rules of Engagement
-- Testing will be conducted during [Specify Testing Windows].
-- Coordinate with the relevant IT and security teams to minimize any potential impact on production systems.
-- Ensure compliance with all relevant laws and regulations during testing.
-
-## Reporting
-A detailed report will be provided at the conclusion of the network security test, outlining findings, vulnerabilities, and recommendations for remediation.
-
----
-
-**Note:** This document is a template, and you should customize it based on the specific details of your network environment, testing requirements, and organizational policies.
