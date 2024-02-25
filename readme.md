@@ -1,4 +1,4 @@
-# Network Security Test
+# Network Security Test Scope: DVWA
 
 ## Objective
 The primary objective of this network security test is to assess the security of the Damn Vulnerable Web Application (DVWA) with a specific focus on TCP/IP and UDP communication protocols. The assessment aims to identify and address potential vulnerabilities in the network infrastructure supporting DVWA.
@@ -24,30 +24,37 @@ The assessment will focus on the security of the following communication protoco
 - **TCP/IP:** Evaluate the security of TCP-based communication, including HTTP, HTTPS, and other relevant protocols.
 - **UDP:** Assess the security of UDP-based communication, with a focus on specific services and applications.
 
+### Testing Tools
+The following tools will be used during the assessment:
+- **Nmap:** Perform network discovery, service version detection, and vulnerability scanning.
+- **Metasploit:** Test for known vulnerabilities and attempt exploitation to validate system security.
+- **Wireshark:** Capture and analyze network packets for potential security issues and anomalies.
+- **tcpdump:** Capture and analyze TCP/IP and UDP communication for detailed packet inspection.
+
 ### Testing Scenarios
 1. **Firewall Assessment:**
-   - Evaluate the firewall configuration for DVWA-related rules.
-   - Test for proper handling of inbound and outbound traffic.
+   - Utilize Nmap to perform firewall scans and identify open ports.
+   - Analyze firewall rules to ensure proper handling of DVWA-related traffic.
 
 2. **Router Security:**
-   - Review the router configuration for any misconfigurations.
-   - Assess the router's handling of DVWA-related traffic.
+   - Use Nmap to scan and identify potential vulnerabilities in the router.
+   - Analyze router logs using Wireshark for any suspicious activities.
 
 3. **Switch Security:**
-   - Evaluate switch security configurations.
-   - Assess the switch's ability to handle DVWA traffic securely.
+   - Employ Nmap for switch security scans.
+   - Use tcpdump to capture and analyze switch traffic for anomalies.
 
 4. **IDPS Effectiveness:**
-   - Test the IDPS for its ability to detect and prevent network attacks related to DVWA.
-   - Evaluate the response and logging mechanisms.
+   - Use Metasploit to simulate network attacks and assess IDPS responsiveness.
+   - Analyze IDPS logs using Wireshark and tcpdump for detected incidents.
 
 5. **TCP/IP Communication Assessment:**
-   - Perform security assessments on TCP-based communication protocols.
-   - Identify and remediate vulnerabilities related to TCP services.
+   - Utilize Nmap for scanning and vulnerability detection on TCP-based services.
+   - Use Wireshark and tcpdump to capture and analyze TCP communication for security issues.
 
 6. **UDP Communication Assessment:**
-   - Assess the security of UDP-based communication.
-   - Identify and remediate vulnerabilities related to UDP services.
+   - Employ Nmap for scanning and vulnerability detection on UDP-based services.
+   - Use Wireshark and tcpdump to capture and analyze UDP communication for security issues.
 
 ## Exclusions
 The following items are explicitly excluded from the scope of this network security test:
