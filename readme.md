@@ -1,4 +1,4 @@
-# Network Security Test Scope: DVWA
+# Network Security 
 
 ## Objective
 The primary objective of this network security test is to assess the security of the Damn Vulnerable Web Application (DVWA) with a specific focus on TCP/IP and UDP communication protocols. The assessment aims to identify and address potential vulnerabilities in the network infrastructure supporting DVWA.
